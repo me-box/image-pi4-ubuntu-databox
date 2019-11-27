@@ -18,7 +18,7 @@ You need an SD card and to follow the [official instructions](https://ubuntu.com
 
 **default password: databoxubuntu**
 
-**NOTE: Once you have logged in, change your password by `sudo passwd`**
+**NOTE: Once you have logged in, change your password by `sudo passwd ubuntu`**
 
 ## How to run Databox using this image?
 The `Makefile` in the directory `~/databox` can help you start (`make start-box`), stop (`make stop-box`), or restart (`make restart-box`) Databox. Be carefull that `make clean-all` will clean **ALL** the Docker containers, images, and volumes.
